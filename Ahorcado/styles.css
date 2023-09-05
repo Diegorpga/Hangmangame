@@ -1,0 +1,173 @@
+body{
+    background-color: rgba(224, 107, 4, 0.936);
+}
+
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-decoration: overline black;
+    text-align: center;
+    font-size: 100px;
+    font-weight:100;
+    font-family: 'Creepster', cursive;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    
+}
+
+
+.botonInicio{
+    background-color: black;
+    color: rgba(224, 107, 4, 0.936);
+    width: 21%;
+    height: 280px;
+    margin-top: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botonInicio:hover{
+    transform: scale(1.1);
+}
+
+
+.btnTexto{
+    font-size: 60px;
+    
+}
+
+.container-juego{
+    margin-top: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 550px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0.72);
+    display: none;
+}
+
+
+.letras-container{
+    background-color:rgba(224, 107, 4, 0.936);
+    margin-top: 2px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 60%;
+    height: 110px;
+    margin-left: 20%;
+    
+}
+
+.vidas{
+    background-color:rgba(224, 107, 4, 0.936) ;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-top: 10%;
+    text-align: center;
+font-size: 30px;
+}
+
+
+.palabra{
+    margin-top: 60px;
+}
+
+
+
+
+.letras-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin-left: 10%;
+
+}
+
+.letritas .btnLetras{
+    cursor: pointer;
+    background-color: black;
+    color:rgba(224, 107, 4, 0.936) ;
+    font-size: 25px;
+    
+}
+
+
+
+
+.btnLetras:hover{
+    background-color:rgba(0, 0, 0, 0.783) ;
+}
+
+.botonNuevo{
+    background-color: black;
+    color:rgba(255, 120, 3, 0.936) ;
+    position: absolute;
+    top: 90%;
+    left: 46.5%;
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botonNuevo:hover{
+    transform: scale(1.1);
+}
+
+
+.i{
+    color: rgba(0, 0, 0, 0);
+    margin-top: 30%;
+  margin: 1.2rem 1rem;
+  border: none;
+  padding: 0;
+  user-select: none;
+  
+  font-size: 45px;
+  
+}
+
+.j{
+    display: flex;
+    margin-left: 15%;
+   
+}
+.k{
+    
+    display: flex;
+    margin-left: 16.5%;
+    margin-bottom: 50px;
+    
+   
+}
+
+
+.rayita{
+    position: relative;
+    right: 40px;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0, rgb(208, 58, 4) 1ch, transparent 0, transparent 1.5ch) 0 100%/ 10ch 2px no-repeat;
+  margin: 4rem 0.35rem;
+  border: none;
+  padding: 0;
+  width: 45px;
+  height: 5px;
+  font-size: 45px;
+}
+
+.imageness{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 385px;
+    height: 800px;
+}
+
